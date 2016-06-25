@@ -11,3 +11,7 @@ persist.radio.dont_use_dsd=true
 
 # Audio
 ro.multisim.set_audio_params=true
+
+romjd.rom.id=b692b126-7df7-4016-a4d7-91c0dd1297af
+romjd.rom.version=1.1.0
+romjd.rom.version.code=1

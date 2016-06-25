@@ -38,7 +38,6 @@
 TARGET_OTA_ASSERT_DEVICE := htc_mecdug,mecdugl
 
 # Kernel
-BOARD_CUSTOM_BOOTIMG_MK := device/htc/mecdug/mkbootimg.mk
 TARGET_KERNEL_CONFIG := cm_mecdug_defconfig
 
 # Audio

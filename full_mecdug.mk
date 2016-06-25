@@ -26,12 +26,6 @@
 # Inherit mecdug-specific vendor tree
 $(call inherit-product-if-exists, vendor/htc/mecdug/mecdug-vendor.mk)
 
-# Inherit mecdug-specific vendor tree
-$(call inherit-product-if-exists, vendor/htc/e8-common/BoardConfigVendor.mk)
-
-# Include non-opensource parts
-$(call inherit-product-if-exists, vendor/htc/e8-common/e8-common-vendor.mk)
-
 # Inherit from mecdug
 $(call inherit-product, device/htc/mecdug/device.mk)
 
